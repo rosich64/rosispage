@@ -1,0 +1,355 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;534&family=Poppins:wght@100&display=swap');
+
+form{
+    font-family: Montserrat  ;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: #f9d9f4;
+    padding: 20px; 
+    text-align: center;
+    width: auto;
+}
+form input{
+    height: 25px;
+    
+    
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f7b3eb;
+    border: 2px solid blueviolet;
+    color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+    .btn-group .button  {
+      float: none;
+      width: 100%;
+      height: 40px;
+    }
+  }
+  
+  @media (max-width: 650px) {
+    footer {
+     display: grid;
+     grid-template-columns: 100%;
+     padding: 0px 10px;
+     margin-top: 30px;
+     
+      
+    }
+  }
+  @media (max-width: 650px) {
+    .contenido {
+     display: grid;
+     
+     width: 100%;
+     
+      margin-top: 100%;
+    }
+  }
+  @media (max-width: 650px) {
+    .tutos {
+     grid-row: span 1/2 ; 
+
+    
+     
+    
+    }
+  }
+
+  
+
+
+
+  @media (max-width: 650px) {
+    .elegir  {
+      
+     display: grid;
+     grid-template-rows: 100%;
+     margin-top: 100px;
+     padding: 10px 30px;
+    }
+  }
+  @media (max-width: 650px) {
+    .cont  {
+      
+     
+     margin-top: 80px;
+     
+    }
+  }
+
+
+  @media (max-width: 650px) {
+    h6, h2 {
+      
+     text-align: center;
+    margin-top: 100px;
+     
+    }
+  }
+  @media (max-width: 650px){   
+  html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    
+} }
+  
+.main-container {
+    width: 100%;
+  }
+  
+  .div-mitad {
+    width: 50%;
+    float: left; 
+  }
+  .elegir{
+        
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    }
+
+
+
+
+/*de aca a abjo con el carrusel index bien*/
+
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    min-height: 100vh;
+    background-color: white;
+    /*background-image: linear-gradient(-45deg, #e3ddd9 50%, #36221c 50%);*/
+    font-family: 'Raleway', sans-serif;
+}
+
+.titulo {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.subtitulo {
+    margin: 0;
+    color: #000;
+    display: inline;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.sabor { 
+    color: #fff;
+    margin: 7px 0;
+    font-size: 50px;
+    font-weight: 600;
+    text-shadow: 2px 2px 1px rgba(0,0,0,0.7);
+    font-family: 'Dancing Script', cursive;
+    margin-top: 0;
+}
+
+.linea-division {
+    width: 80%;
+    height: 2px;
+    background-color: #36221c;
+}
+
+/*estilo materialize*/
+
+.carousel{
+    min-height: 300px;
+
+}
+.carousel .carousel-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    width: 300px;
+    height: 300px;
+}
+.carousel .carousel-item img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute; /*para tener la imagen de fondo*/
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 15px;
+}
+.carousel .indicators .indicator-item{
+    border-radius: 0;
+    transform: rotate(45deg) ;
+    margin: 0px 15px;
+    background: #36221c;
+}
+
+header {
+    display: grid;
+    grid-row: 1fr 1fr;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    background-color: rgb(207, 114, 243);
+    padding: 0px;
+    
+    
+    
+    
+
+}
+.contenedor{
+    background-color: #f7eaf5;
+}
+.top{
+    color: white;
+    height: 60px;
+    margin: 0px;
+    
+}
+
+
+.btn-group .button {
+    background-color: white; /* Green */
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    
+  }
+  
+  .btn-group .button:hover {
+    background-color: #efade3;
+  }
+  h5 {
+    background-color: rgb(207, 114, 243);
+    text-align: center;
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 18px;
+    height: 40px;
+
+}
+
+
+p{
+    font-size: 24px;
+}
+
+/*formulario*/
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .cont{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .gridcont {
+    display: grid;
+    grid-template-columns: auto  auto auto;
+    background-color: #e31eea;
+    padding: 5px;
+  }
+  .cuadrado, .video {
+    background-color:white;
+    border: 2px solid #e31eea;
+    padding: 20px;
+    font-size: 24px;
+    text-align: center;
+  
+  }
+  
+  @media screen and (max-width: 600px) {
+      .gridcont {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 1px;
+        margin-top: 50px;
+        
+      }
+    }
+
+    .tutos {
+      display: grid;
+      grid-template-columns: auto  auto;
+      background-color: #e31eea;
+      padding: 5px;
+    }
+    @media screen and (max-width: 600px) {
+      .tutos {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 1px;
+        margin-top: 50px;
+        
+      }
+    }

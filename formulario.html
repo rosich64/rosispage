@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+     <!-- Awesome link-->
+     <script src="https://kit.fontawesome.com/d8c5bf8a3d.js" crossorigin="anonymous"></script>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Raleway:500,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    
+</head>
+<body>
+   
+  <header>
+
+    <div class="top">
+            
+        <h5 style="font-size: 24px;" > Objetos útiles y decorativos - Realizados con papel o cartón reciclado</h5>
+     </div> 
+     
+    <div class="menu"  >
+      <div class="btn-group">
+     
+        <a href="index.html"  type="button"  class="button" >Home</a>
+        <a href="formulario.html"  type="button"  class="button" >Formulario</a> 
+        <a href="productos.html" type="button"  class="button" >Productos</a>
+        <a href="tutoriales.html"  type="button"  class="button" > Tutoriales</a>
+        
+       
+      </div>    
+     
+    </div>
+      
+    </header>
+    <br>  
+    <h2 style="text-align: center;" >Completar datos para el envio</h2>
+   
+<br><br><br>
+ 
+  <form action=""  name="formulario" class="formulario" id="formulario" >
+    
+    <h3  style="color: red; font-size: 25px; "    id="etiq" ></h3>
+    <label for="fname" id="labelname"    >Nombre:</label> <br>
+    <input type="text" id="fname" name="fname" size="60" maxlength="20" value="" placeholder="Nombre.." autofocus ><br>
+    <label for="lname">Apellido:</label><br>
+    <input type="text" id="lname" name="lname" size="60" maxlength="30" value="" placeholder="Apellido.." > <br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" size="60" maxlength="30" value="" placeholder="Email.." > <br>
+    <label for="password">Password :</label><br>
+    <input type="password" id="password" name="password" size="60" placeholder="Password.." value=""> <br>
+    <label for="comment">Ingresar consulta: </label><br>
+    <textarea id="textarea" rows="8" cols="60" name="comment" form="usrform"></textarea><br>
+    <button type="submit" class="btn" onclick="return enviarFormulario()" > Enviar </button>
+
+  
+  </form>
+
+
+<div id="error" ></div>
+
+
+<footer>
+  <div>
+    <br>
+    <p >Contactame <i class="fa-solid fa-envelope"></i></p>
+  <a href="mailto:rositerrab@gmail.com" style="font-size: 24px;" >rositerrab@gmail.com</a><br>
+  <p> Seguime en : </p><br>
+  <i class="fa-brands fa-facebook" style="font-size: 24px;" ></i>
+  <i class="fa-brands fa-instagram" style="font-size: 24px;" ></i>
+  <i class="fa-brands fa-twitter" style="font-size: 24px;" ></i>
+  <i class="fa-brands fa-youtube" style="font-size: 24px;" ></i>
+  
+</div>
+<div>
+<br>
+  <iframe id="container-form" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.462870410208!2d-58.45295678477131!3d-34.56715278046898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5cff05af115%3A0xbeb35c538a66b4e7!2sAv.%20Cabildo%201500%2C%20C1426%20ABO%2C%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1651874289458!5m2!1sen!2sar" width="450" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</footer>
+
+
+<script src="archivo.js"></script>
+
+
+</body>
+</html>
